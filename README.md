@@ -40,6 +40,9 @@ This [`slack.sh` script](slack.sh) needs to be placed in the `AlertScriptsPath` 
 
 	[root@zabbix ~]# ls -lh /usr/local/share/zabbix/alertscripts/slack.sh
 	-rwxr-xr-x 1 root root 1.4K Dec 27 13:48 /usr/local/share/zabbix/alertscripts/slack.sh
+	
+	# chmod +x slack.sh
+        # chown zabbix.zabbix: slack.sh
 
 If you do change `AlertScriptsPath` (or any other values) within `zabbix_server.conf`, a restart of the Zabbix server software is required.
 
