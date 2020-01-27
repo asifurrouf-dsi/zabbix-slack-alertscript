@@ -119,6 +119,7 @@ The new [Testing media types](https://www.zabbix.com/documentation/4.2/manual/we
 Alternatively, you can execute the script manually (as opposed to via Zabbix) from Bash on a terminal:
 
 	$ bash slack.sh '@ericoc' 'Problem: This is a test' 'This is a test of something being wrong!'
+	$ bash dsislack.sh '@ericoc' 'Problem: This is a test' 'This is a test of something being wrong!'
 
 Alerting a specific user name results in the message actually coming from the "Slackbot" user using a sort-of "spoofed" user name within the message. A channel alert is sent as you would normally expect from whatever user name you specify in `slack.sh`:
 
